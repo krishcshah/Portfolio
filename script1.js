@@ -16516,7 +16516,6 @@ Webflow.define('brand', module.exports = function ($) {
   var doc = document;
   var $html = $('html');
   var $body = $('body');
-  var namespace = '.w-webflow-badge';
   var location = window.location;
   var isPhantom = /PhantomJS/i.test(navigator.userAgent);
   var fullScreenEvents = 'fullscreenchange webkitfullscreenchange mozfullscreenchange msfullscreenchange';
@@ -16545,14 +16544,7 @@ Webflow.define('brand', module.exports = function ($) {
   }
 
   function createBadge() {
-    var $brand = $('<a class="w-webflow-badge"></a>').attr('href', 'https://webflow.com?utm_campaign=brandjs');
-    var $logoArt = $('<img>').attr('src', 'https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg').attr('alt', '').css({
-      marginRight: '8px',
-      width: '16px'
-    });
-    var $logoText = $('<img>').attr('src', 'https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg').attr('alt', 'Made in Webflow');
-    $brand.append($logoArt, $logoText);
-    return $brand[0];
+    return;
   }
 
   function ensureBrand() {
