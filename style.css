@@ -3259,7 +3259,7 @@
    .number-wrap.position-absolute.display-flex-horizontal.home {
      width: 50%;
    }
-   
+
    .wrap-line {
      width: 25vw;
      height: 1.5vh;
@@ -3270,13 +3270,13 @@
    }
    
    .line {
-     width: 75%;
+     width: 0%;
      height: 100%;
      background-color: #000;
    }
    
    .line.second {
-     width: 85%;
+     width: 98%;
    }
    
    .line.first {
@@ -3293,17 +3293,17 @@
    }
    
    .line.second {
-     width: 98%;
+     width: 85%;
      mix-blend-mode: overlay;
    }
    
    .line.third {
-     width: 75%;
+     width: 90%;
      mix-blend-mode: overlay;
    }
    
    .line.fourth {
-     width: 86%;
+     width: 0%;
      mix-blend-mode: overlay;
    }
    
